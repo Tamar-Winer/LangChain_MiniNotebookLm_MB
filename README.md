@@ -1,17 +1,10 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=NotebookLM%20Mini&fontSize=54&fontColor=fff&animation=twinkling&fontAlignY=40&desc=AI%20Research%20Assistant%20%7C%20LangGraph%20%2B%20HITL&descAlignY=65&descAlign=50" width="100%"/>
+
 <br/>
 
-```
-███╗   ██╗ ██████╗ ████████╗███████╗██████╗  ██████╗  ██████╗ ██╗  ██╗    ██╗     ███╗   ███╗    ███╗   ███╗██╗███╗   ██╗██╗
-████╗  ██║██╔═══██╗╚══██╔══╝██╔════╝██╔══██╗██╔═══██╗██╔═══██╗██║ ██╔╝    ██║     ████╗ ████║    ████╗ ████║██║████╗  ██║██║
-██╔██╗ ██║██║   ██║   ██║   █████╗  ██████╔╝██║   ██║██║   ██║█████╔╝     ██║     ██╔████╔██║    ██╔████╔██║██║██╔██╗ ██║██║
-██║╚██╗██║██║   ██║   ██║   ██╔══╝  ██╔══██╗██║   ██║██║   ██║██╔═██╗     ██║     ██║╚██╔╝██║    ██║╚██╔╝██║██║██║╚██╗██║██║
-██║ ╚████║╚██████╔╝   ██║   ███████╗██████╔╝╚██████╔╝╚██████╔╝██║  ██╗    ███████╗██║ ╚═╝ ██║    ██║ ╚═╝ ██║██║██║ ╚████║██║
-╚═╝  ╚═══╝ ╚═════╝    ╚═╝   ╚══════╝╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝    ╚══════╝╚═╝     ╚═╝    ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝
-```
-
-### 📚 AI-Powered Research Assistant with Human-in-the-Loop
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=7C3AED&center=true&vCenter=true&width=700&lines=🧠+עוזר+מחקר+חכם+מבוסס+בינה+מלאכותית;✋+עוצר+לבדיקתך+לפני+שמסכם;🔍+LangGraph+%2B+Streamlit+%2B+OpenAI;⚡+Human-in-the-Loop+Control" alt="Typing SVG" />
 
 <br/>
 
@@ -24,13 +17,13 @@
 
 <br/>
 
-> **NotebookLM Mini** is an AI-powered research agent inspired by Google's NotebookLM.
-> It autonomously searches the web across multiple angles, **pauses for your review**,
-> then generates a structured summary from only the sources *you* approve.
+> **NotebookLM Mini** הוא עוזר מחקר חכם בהשראת Google NotebookLM.
+> הוא מחפש באינטרנט ממספר זוויות, **עוצר לבדיקתך**,
+> ואז מייצר סיכום מובנה רק מהמקורות שאתה מאשר.
 
 <br/>
 
-[🚀 Quick Start](#-quick-start) &nbsp;·&nbsp; [🏗 Architecture](#-architecture) &nbsp;·&nbsp; [✨ Features](#-features) &nbsp;·&nbsp; [📖 How HITL Works](#-how-human-in-the-loop-works) &nbsp;·&nbsp; [🛠 Tech Stack](#-tech-stack)
+[🚀 התחלה מהירה](#-התחלה-מהירה) &nbsp;·&nbsp; [🏗 ארכיטקטורה](#-ארכיטקטורה) &nbsp;·&nbsp; [✨ יכולות](#-יכולות) &nbsp;·&nbsp; [📖 כיצד HITL עובד](#-כיצד-human-in-the-loop-עובד) &nbsp;·&nbsp; [🛠 טכנולוגיות](#-טכנולוגיות)
 
 <br/>
 
@@ -38,37 +31,37 @@
 
 ---
 
-## ✨ Features
+## ✨ יכולות
 
 <br/>
 
-| &nbsp; | Feature | Description |
+| &nbsp; | יכולת | תיאור |
 |:---:|---|---|
-| 🤖 | **Autonomous Multi-Query Research** | Runs 4–6 diverse Tavily search queries covering different angles of your topic simultaneously |
-| ✋ | **Human-in-the-Loop Control** | LangGraph `interrupt()` halts execution mid-graph so you can curate exactly which sources matter |
-| 🧠 | **Structured AI Summaries** | GPT-4o-mini produces structured output: Overview → Key Points → Perspectives → Conclusions |
-| 🎨 | **Modern Dark UI** | Glassmorphism design with animated gradient title, floating ambient orbs, and smooth micro-interactions |
-| 🔄 | **Stateful Checkpointing** | `MemorySaver` persists the full graph state across the interrupt/resume boundary within a session |
-| ⚡ | **ReAct Agent Pattern** | `create_react_agent` with a custom system prompt guides multi-angle search planning |
-| 📊 | **Live Selection Stats** | Review page shows real-time count of selected / excluded sources before summarizing |
-| 📋 | **Source Preview** | Expand any source card to read a 450-character content preview before deciding |
+| 🤖 | **מחקר אוטונומי מרובה שאילתות** | מריץ 4–6 שאילתות Tavily מגוונות המכסות זוויות שונות של הנושא בו-זמנית |
+| ✋ | **פיקוח אנושי (HITL)** | `interrupt()` של LangGraph עוצר את ביצוע הגרף כך שתוכל לאצור בדיוק אילו מקורות חשובים |
+| 🧠 | **סיכומי AI מובנים** | GPT-4o-mini מייצר פלט מובנה: סקירה ← נקודות מפתח ← פרספקטיבות ← מסקנות |
+| 🎨 | **ממשק כהה מודרני** | עיצוב Glassmorphism עם כותרת גרדיאנט מונפשת, כדורים אמביינטיים צפים ומיקרו-אינטראקציות |
+| 🔄 | **שמירת מצב (Checkpointing)** | `MemorySaver` שומר את מצב הגרף המלא לאורך גבול ה-interrupt/resume בתוך סשן |
+| ⚡ | **דפוס ReAct Agent** | `create_react_agent` עם הנחיית מערכת מותאמת מנחה תכנון חיפוש רב-זוויתי |
+| 📊 | **סטטיסטיקות בחירה חיות** | דף הסקירה מציג ספירה בזמן אמת של מקורות שנבחרו/הוחרגו לפני הסיכום |
+| 📋 | **תצוגה מקדימה של מקורות** | הרחב כל כרטיס מקור לקריאת תצוגה מקדימה של 450 תווים לפני ההחלטה |
 
 <br/>
 
 ---
 
-## 🏗 Architecture
+## 🏗 ארכיטקטורה
 
-### LangGraph State Graph
+### גרף מצב LangGraph
 
 ```mermaid
 flowchart LR
-    A(["🧑 User\nenters topic"]) --> R["🔍 research_node\nReAct Agent + Tavily\n4–6 search queries"]
+    A(["🧑 משתמש\nמזין נושא"]) --> R["🔍 research_node\nReAct Agent + Tavily\n4–6 שאילתות"]
     R --> H{"✋ human_review_node\n⏸ interrupt()"}
-    H --> B(["🧑 User reviews\n& selects sources\nin Streamlit UI"])
+    H --> B(["🧑 משתמש סוקר\n& בוחר מקורות\nב-Streamlit UI"])
     B -->|"graph.invoke(Command(resume=selected))"| H
-    H --> S["✍️ summarize_node\nGPT-4o-mini\nStructured prompt"]
-    S --> E(["📖 Structured\nSummary"])
+    H --> S["✍️ summarize_node\nGPT-4o-mini\nהנחיה מובנית"]
+    S --> E(["📖 סיכום\nמובנה"])
 
     style A fill:#1e293b,color:#94a3b8,stroke:#334155
     style R fill:#1e2a4a,color:#93c5fd,stroke:#1d4ed8
@@ -80,20 +73,20 @@ flowchart LR
 
 <br/>
 
-### State Schema
+### סכמת המצב
 
 ```python
 class ResearchState(TypedDict):
-    topic:            str           # Topic entered by the user
-    sources:          List[Source]  # Raw sources collected by the ReAct agent
-    approved_sources: List[Source]  # Human-curated subset passed to summarizer
-    summary:          str           # Final structured summary from GPT-4o-mini
+    topic:            str           # הנושא שהוזן על ידי המשתמש
+    sources:          List[Source]  # מקורות גולמיים שנאספו על ידי ה-ReAct agent
+    approved_sources: List[Source]  # תת-קבוצה שנאצרה על ידי האדם ומועברת לסיכום
+    summary:          str           # סיכום מובנה סופי מ-GPT-4o-mini
 ```
 
-### Node Details
+### פרטי הצמתים
 
 <details>
-<summary><strong>🔍 research_node</strong> — click to expand</summary>
+<summary><strong>🔍 research_node</strong> — לחץ להרחבה</summary>
 
 ```python
 def research_node(state: ResearchState) -> dict:
@@ -101,7 +94,7 @@ def research_node(state: ResearchState) -> dict:
     agent = create_react_agent(
         llm,
         tools=[TavilySearch(max_results=5)],
-        prompt=RESEARCH_SYSTEM_PROMPT,       # instructs agent to run 4–6 diverse queries
+        prompt=RESEARCH_SYSTEM_PROMPT,       # מנחה את ה-agent לבצע 4–6 שאילתות מגוונות
     )
     result = agent.invoke(
         {"messages": [HumanMessage(content=f"Collect sources about: {state['topic']}")]}
@@ -109,35 +102,35 @@ def research_node(state: ResearchState) -> dict:
     return {"sources": _extract_sources(result["messages"])}
 ```
 
-The ReAct agent autonomously decides *how many* searches to run and from *which angle* —
-basics, recent developments, statistics, expert opinions, case studies, etc.
-Sources are extracted from Tavily tool-call messages and deduplicated by URL.
+ה-ReAct agent מחליט באופן אוטונומי כמה חיפושים לבצע ומאיזו זווית —
+בסיסים, התפתחויות אחרונות, סטטיסטיקות, דעות מומחים, מקרי מבחן וכדומה.
+המקורות מחולצים מהודעות קריאת כלי Tavily ומנוקים מכפילויות לפי URL.
 
 </details>
 
 <details>
-<summary><strong>✋ human_review_node</strong> — click to expand</summary>
+<summary><strong>✋ human_review_node</strong> — לחץ להרחבה</summary>
 
 ```python
 def human_review_node(state: ResearchState) -> dict:
-    approved = interrupt(state["sources"])   # ← execution PAUSES here
-    return {"approved_sources": approved}    # ← execution RESUMES here
+    approved = interrupt(state["sources"])   # ← הביצוע עוצר כאן
+    return {"approved_sources": approved}    # ← הביצוע ממשיך כאן
 ```
 
-`interrupt()` raises a special LangGraph exception that:
-1. Serializes the complete graph state into `MemorySaver`
-2. Returns control to the calling code (Streamlit)
+`interrupt()` מעלה חריגה מיוחדת של LangGraph שׁ:
+1. מסדרת את מצב הגרף המלא ל-`MemorySaver`
+2. מחזירה שליטה לקוד הקורא (Streamlit)
 
-When the user clicks **Approve & Summarize**, Streamlit calls:
+כשהמשתמש לוחץ על **אשר וסכם**, Streamlit קורא:
 ```python
 graph.invoke(Command(resume=selected_sources), config=config)
 ```
-LangGraph restores the frozen state and injects the user's selection.
+LangGraph משחזר את המצב הקפוא ומזריק את בחירת המשתמש.
 
 </details>
 
 <details>
-<summary><strong>✍️ summarize_node</strong> — click to expand</summary>
+<summary><strong>✍️ summarize_node</strong> — לחץ להרחבה</summary>
 
 ```python
 def summarize_node(state: ResearchState) -> dict:
@@ -161,29 +154,29 @@ def summarize_node(state: ResearchState) -> dict:
 
 ---
 
-## 🚀 Quick Start
+## 🚀 התחלה מהירה
 
-### Prerequisites
+### דרישות מקדימות
 
 - Python **3.10+**
-- An [OpenAI API key](https://platform.openai.com/api-keys)
-- A [Tavily API key](https://tavily.com) *(free tier: 1,000 searches/month)*
+- [מפתח API של OpenAI](https://platform.openai.com/api-keys)
+- [מפתח API של Tavily](https://tavily.com) *(שכבה חינמית: 1,000 חיפושים/חודש)*
 
-### Installation
+### התקנה
 
 ```bash
-# 1. Clone the repository
+# 1. שכפל את המאגר
 git clone <repo-url>
 cd "Project5 LangChain"
 
-# 2. Install dependencies
+# 2. התקן תלויות
 pip install -r requirements.txt
 
-# 3. Configure API keys
+# 3. הגדר מפתחות API
 cp .env.example .env
 ```
 
-Edit `.env` and fill in your keys:
+ערוך את `.env` ומלא את המפתחות שלך:
 
 ```env
 OPENAI_API_KEY=sk-...your-openai-key...
@@ -191,98 +184,98 @@ TAVILY_API_KEY=tvly-...your-tavily-key...
 ```
 
 ```bash
-# 4. Launch the app
+# 4. הפעל את האפליקציה
 streamlit run app.py
 ```
 
-Open **[http://localhost:8501](http://localhost:8501)** in your browser.
+פתח **[http://localhost:8501](http://localhost:8501)** בדפדפן שלך.
 
 <br/>
 
 ---
 
-## 📖 How Human-in-the-Loop Works
+## 📖 כיצד Human-in-the-Loop עובד
 
-The key concept is LangGraph's **interrupt / resume** pattern — the graph can pause mid-execution, wait for human input, and then continue from exactly where it left off.
+המושג המרכזי הוא דפוס ה**interrupt / resume** של LangGraph — הגרף יכול לעצור באמצע הביצוע, לחכות לקלט אנושי, ואז להמשיך בדיוק מאיפה שהפסיק.
 
 ```
-Standard agent:   node-A ──► node-B ──► node-C ──► done
+Agent רגיל:      node-A ──► node-B ──► node-C ──► סיום
                                  ↑
-NotebookLM Mini:          PAUSES HERE ⏸
-                          Streamlit shows sources to user
-                          User selects what to keep
-                          Graph resumes ▶ with approved list
+NotebookLM Mini:          עוצר כאן ⏸
+                          Streamlit מציג מקורות למשתמש
+                          המשתמש בוחר מה לשמור
+                          הגרף ממשיך ▶ עם הרשימה המאושרת
 ```
 
-### Step-by-step flow
+### זרימה שלב אחר שלב
 
 ```
-1. User types topic  ──►  Streamlit calls graph.invoke({"topic": ...})
+1. המשתמש מקליד נושא  ──►  Streamlit קורא graph.invoke({"topic": ...})
 
-2. research_node runs   ──►  Agent queries Tavily 4–6 times
-                              Sources collected & deduplicated
+2. research_node רץ    ──►  Agent שולח שאילתות ל-Tavily 4–6 פעמים
+                              מקורות נאספים ומנוקים מכפילויות
 
-3. human_review_node    ──►  interrupt(sources) is called
-                              ⏸ Graph FREEZES — state saved to MemorySaver
-                              graph.invoke() returns to Streamlit
+3. human_review_node   ──►  interrupt(sources) נקרא
+                              ⏸ הגרף קופא — מצב נשמר ב-MemorySaver
+                              graph.invoke() חוזר ל-Streamlit
 
-4. Streamlit renders    ──►  Review page displayed to user
-   review page               User checks/unchecks source cards
+4. Streamlit מרנדר    ──►  דף הסקירה מוצג למשתמש
+   דף הסקירה               המשתמש מסמן/מבטל כרטיסי מקור
 
-5. User clicks          ──►  Streamlit calls:
-   "Approve"                 graph.invoke(Command(resume=selected), config=cfg)
+5. המשתמש לוחץ         ──►  Streamlit קורא:
+   "אשר"                    graph.invoke(Command(resume=selected), config=cfg)
 
-6. Graph RESUMES        ──►  human_review_node returns {"approved_sources": selected}
+6. הגרף ממשיך          ──►  human_review_node מחזיר {"approved_sources": selected}
 
-7. summarize_node runs  ──►  GPT-4o-mini generates structured summary
-                              from only the approved sources
+7. summarize_node רץ   ──►  GPT-4o-mini מייצר סיכום מובנה
+                              רק מהמקורות המאושרים
 
-8. Done page            ──►  Summary + source cards displayed
+8. דף הסיום            ──►  סיכום + כרטיסי מקור מוצגים
 ```
 
-> **Why `MemorySaver`?** Streamlit re-renders the entire Python script on every user interaction. Without the checkpointer persisting state, the graph would restart from scratch on every click. `MemorySaver` acts as a session-scoped database that keeps the frozen graph state alive between HTTP requests.
+> **למה `MemorySaver`?** Streamlit מרנדר מחדש את כל סקריפט Python בכל אינטראקציית משתמש. בלי ה-checkpointer ששומר את המצב, הגרף היה מתחיל מחדש מה-scratch בכל לחיצה. `MemorySaver` פועל כמסד נתונים בהיקף הסשן ששומר את מצב הגרף הקפוא בין בקשות HTTP.
 
 <br/>
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 טכנולוגיות
 
-| Package | Version | Role |
+| חבילה | גרסה | תפקיד |
 |---|:---:|---|
-| `langgraph` | 1.2.1 | Agent graph, state management, `interrupt()` HITL, `MemorySaver` |
-| `langchain` | 0.3.1 | Core abstractions — messages, LLM wrappers, agent utilities |
-| `langchain-openai` | 0.2.2 | GPT-4o-mini integration via `ChatOpenAI` |
-| `langchain-tavily` | 0.2.18 | AI-optimised web search via `TavilySearch` |
-| `streamlit` | 1.57.0 | Reactive web UI framework |
-| `python-dotenv` | 1.0+ | `.env` file loading for API key management |
+| `langgraph` | 1.2.1 | גרף agent, ניהול מצב, `interrupt()` HITL, `MemorySaver` |
+| `langchain` | 0.3.1 | הפשטות ליבה — הודעות, עטיפות LLM, כלי agent |
+| `langchain-openai` | 0.2.2 | אינטגרציית GPT-4o-mini דרך `ChatOpenAI` |
+| `langchain-tavily` | 0.2.18 | חיפוש אינטרנט מותאם AI דרך `TavilySearch` |
+| `streamlit` | 1.57.0 | מסגרת ממשק משתמש אינטרנטי ריאקטיבי |
+| `python-dotenv` | 1.0+ | טעינת קבצי `.env` לניהול מפתחות API |
 
-> **⚠️ Import note:** `langchain-tavily` 0.2.x exports `TavilySearch`, not `TavilySearchResults`.
-> If you get an `ImportError`, ensure `langchain-tavily >= 0.2.0`.
+> **⚠️ הערת ייבוא:** `langchain-tavily` 0.2.x מייצא `TavilySearch`, לא `TavilySearchResults`.
+> אם מקבלים `ImportError`, ודא ש-`langchain-tavily >= 0.2.0`.
 
 <br/>
 
 ---
 
-## 📁 Project Structure
+## 📁 מבנה הפרויקט
 
 ```
 Project5 LangChain/
 │
 ├── 📄 app.py                   ← Streamlit UI
-│   ├── page_input()            │  Step 1: topic entry + feature chips
-│   ├── page_review()           │  Step 2: source cards, checkboxes, stats bar
-│   └── page_done()             │  Step 3: tabbed summary + sources
+│   ├── page_input()            │  שלב 1: הזנת נושא + צ'יפים של תכונות
+│   ├── page_review()           │  שלב 2: כרטיסי מקור, תיבות סימון, פס סטטיסטיקות
+│   └── page_done()             │  שלב 3: סיכום עם טאבים + מקורות
 │
 ├── 📁 agent/
-│   ├── 📄 research_agent.py    ← LangGraph graph definition
-│   │   ├── research_node       │  ReAct agent + Tavily (4–6 queries)
-│   │   ├── human_review_node   │  interrupt() — HITL pause point
-│   │   └── summarize_node      │  GPT-4o-mini structured summary
+│   ├── 📄 research_agent.py    ← הגדרת גרף LangGraph
+│   │   ├── research_node       │  ReAct agent + Tavily (4–6 שאילתות)
+│   │   ├── human_review_node   │  interrupt() — נקודת עצירת HITL
+│   │   └── summarize_node      │  סיכום מובנה GPT-4o-mini
 │   └── 📄 __init__.py
 │
 ├── 📄 requirements.txt
-├── 📄 .env.example             ← Copy to .env and fill in API keys
+├── 📄 .env.example             ← העתק ל-.env ומלא מפתחות API
 └── 📄 README.md
 ```
 
@@ -290,60 +283,60 @@ Project5 LangChain/
 
 ---
 
-## 💡 Example Research Topics
+## 💡 דוגמאות לנושאי מחקר
 
-| Domain | Example Topic |
+| תחום | דוגמת נושא |
 |---|---|
-| 🔬 Science | The future of quantum computing in post-quantum cryptography |
-| 🏥 Medicine | AI applications in early-stage Alzheimer's detection 2024 |
-| 🌍 Climate | Latest advances in direct air carbon capture technology |
-| 💻 Engineering | Rust vs Go for high-performance systems programming |
-| 📈 Finance | Central bank digital currencies (CBDC) global adoption |
-| 🧠 AI/ML | Mixture-of-Experts architecture in modern large language models |
-| 🚀 Space | NASA Artemis program — current status and 2025 mission roadmap |
-| ⚖️ Policy | EU AI Act implementation timeline and industry impact |
+| 🔬 מדע | עתיד המחשוב הקוונטי בקריפטוגרפיה פוסט-קוונטית |
+| 🏥 רפואה | יישומי AI בגילוי מוקדם של מחלת אלצהיימר 2024 |
+| 🌍 אקלים | ההתקדמויות האחרונות בטכנולוגיית לכידת פחמן ישירה מהאוויר |
+| 💻 הנדסה | Rust לעומת Go לתכנות מערכות בעל ביצועים גבוהים |
+| 📈 פיננסים | אימוץ גלובלי של מטבעות דיגיטליים של בנקים מרכזיים (CBDC) |
+| 🧠 AI/ML | ארכיטקטורת Mixture-of-Experts במודלי שפה גדולים מודרניים |
+| 🚀 חלל | תוכנית NASA Artemis — מצב נוכחי ומפת דרכים למשימות 2025 |
+| ⚖️ מדיניות | ציר זמן יישום חוק AI האירופי והשפעתו על התעשייה |
 
-> **Tip:** The more specific your topic, the better the sources. Instead of *"AI in medicine"* try *"AI for early pancreatic cancer detection clinical trials 2024"*.
+> **טיפ:** ככל שהנושא שלך ספציפי יותר, כך המקורות טובים יותר. במקום *"AI ברפואה"* נסה *"AI לגילוי סרטן הלבלב בשלב מוקדם — ניסויים קליניים 2024"*.
+
+<br/>
+
+---
+
+## 🔑 מדריך מפתחות API
+
+<details>
+<summary><strong>קבל מפתח OpenAI API</strong></summary>
+
+1. עבור ל-[platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+2. לחץ על **Create new secret key**
+3. העתק את המפתח (מתחיל עם `sk-`)
+4. הוסף ל-`.env`: `OPENAI_API_KEY=sk-...`
+
+> מודל בשימוש: `gpt-4o-mini` — מהיר וחסכוני למשימות סיכום.
+
+</details>
+
+<details>
+<summary><strong>קבל מפתח Tavily API</strong></summary>
+
+1. עבור ל-[tavily.com](https://tavily.com) והירשם (חינם)
+2. העתק את מפתח ה-API מלוח הבקרה (מתחיל עם `tvly-`)
+3. הוסף ל-`.env`: `TAVILY_API_KEY=tvly-...`
+
+> שכבה חינמית: **1,000 חיפושים/חודש** — מספיק לפיתוח ודמואים.
+
+</details>
 
 <br/>
 
 ---
 
-## 🔑 API Keys Guide
-
-<details>
-<summary><strong>Get an OpenAI API key</strong></summary>
-
-1. Go to [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
-2. Click **Create new secret key**
-3. Copy the key (starts with `sk-`)
-4. Add to `.env`: `OPENAI_API_KEY=sk-...`
-
-> Model used: `gpt-4o-mini` — fast and cost-effective for summarization tasks.
-
-</details>
-
-<details>
-<summary><strong>Get a Tavily API key</strong></summary>
-
-1. Go to [tavily.com](https://tavily.com) and sign up (free)
-2. Copy your API key from the dashboard (starts with `tvly-`)
-3. Add to `.env`: `TAVILY_API_KEY=tvly-...`
-
-> Free tier: **1,000 searches/month** — plenty for development and demos.
-
-</details>
-
-<br/>
-
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
 
 <div align="center">
 
-**Built with** ❤️ **using LangGraph · LangChain · Streamlit · Tavily · OpenAI**
+**נבנה באהבה** ❤️ **עם LangGraph · LangChain · Streamlit · Tavily · OpenAI**
 
-<br/>
-
-*Project 5 — LangChain & LangGraph HITL Agent*
+*פרויקט 5 — LangChain & LangGraph HITL Agent*
 
 </div>
